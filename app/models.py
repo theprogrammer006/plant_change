@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 class Plant(Base):
-    __tablename__ = 'plants'
+    __tablename__ = 'plants1'
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
